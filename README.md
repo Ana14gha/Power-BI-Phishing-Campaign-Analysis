@@ -1,7 +1,9 @@
 # Power-BI-Phishing-Campaign-Analysis
 
 ## Project Overview
+
 Phishing is one of the most common and costly cybersecurity threats because it targets people rather than systems. This project uses **Microsoft Power BI** to turn raw phishing campaign data into interactive dashboards that show where the risks are, who is most vulnerable, and whether training is working.The dataset contains records for **30,000+ simulated phishing emails** across departments and locations in Victoria, Australia. After cleaning, modelling, and visualising the data in Power BI, the dashboards provide clear findings that both technical and non-technical stakeholders can act on.
+
 ---
 ## Dashboards Provided
 1. **Campaign Manager Dashboard** – Tracks phishing campaign performance across departments and locations.
