@@ -42,7 +42,7 @@ The line chart compares the number of phishing reports against the number of com
 
 
 ### **Individual User Dashboard**
-<img width="1168" height="610" alt="image" src="https://github.com/user-attachments/assets/6d6612bb-da21-4f70-b756-dd0e04f8eb80" />
+<img width="1139" height="606" alt="image" src="https://github.com/user-attachments/assets/b316e0b8-41d1-472a-a7db-712b9e650197" />
 
 This dashboard turns simulated phishing data into clear insights for security teams. Each visual answers a specific question about training, behaviour, and risk so action is obvious.
 
@@ -75,7 +75,7 @@ IT is lowest, confirming the trend from other visuals.
 This ranking provides a clear order for prioritising awareness campaigns and policy enforcement.
 
 ### **HR Manager Dashboard**
-<img width="1011" height="633" alt="image" src="https://github.com/user-attachments/assets/b335c095-8896-4b70-9474-ec494eaf7231" />
+<img width="1046" height="603" alt="image" src="https://github.com/user-attachments/assets/7fb1ad09-d1a4-4151-a9e2-f8f0aafea04e" />
 
 ### Link Clicks vs Training Completion by Department
 The Marketing department recorded 18 phishing link clicks despite completing 16 training modules, showing a near one-to-one ratio between completions and risky interactions. IT registered 14 clicks but only 7 completions, suggesting a significant training gap. Finance recorded 8 clicks against 9 completions, showing a slightly better balance. This variation indicates that training impact differs across departments, and completion alone does not guarantee lower click rates.
