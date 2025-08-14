@@ -23,20 +23,72 @@ Phishing is one of the most common and costly cybersecurity threats because it t
 ---
 ## Detailed Dashboard Descriptions
 ### **Campaign Manager Dashboard**
-- <u>Emails sent vs opened by department</u>: Finance opened **4,000 of 6,000** phishing emails (**67%**). Marketing opened **3,800 of 5,500** (**69%**). These high open rates point to elevated exposure.
-- <u>Geographic distribution of link clicks</u>: Melbourne **20** clicks, Geelong **15**, Ballarat **10**, Bendigo **8**. Cities with more clicks should be prioritised for awareness campaigns.
-- <u>Breakdown of clicks, downloads, and reports</u>: **68%** link clicks, **31%** attachment downloads, **1%** reports. Reporting remains very low relative to risky interactions.
-- <u>Reported incidents vs compromised accounts</u>: IT showed **20** compromised accounts with relatively few reports, highlighting a critical awareness gap.
+<img width="1141" height="634" alt="image" src="https://github.com/user-attachments/assets/8028d07c-2c2a-47ec-8e38-06d4157555cf" />
+
+### Emails Sent vs Emails Opened by Department
+The Finance department received approximately 6,000 phishing emails and opened around 4,000 of them, giving a 67% open rate. Marketing followed closely, with about 5,500 emails sent and 3,800 opened (≈69%). Sales and IT showed slightly lower engagement, while HR had the lowest volume overall. High open rates in Finance and Marketing indicate greater initial exposure risk to phishing attempts, making these departments key targets for awareness and prevention efforts.
+
+### Geographic Distribution of Link Clicks
+The map visualisation shows that Melbourne recorded the highest number of phishing link clicks (20), followed by Geelong (15), Ballarat (10), and Bendigo (8). The concentration of clicks in metropolitan areas suggests that phishing campaigns may be more effective where there are larger employee clusters. These locations should be prioritised for targeted training and simulated phishing exercises.
+
+### Breakdown of Clicks, Downloads, and Reports
+The pie chart reveals that 68% of recorded interactions involved clicking phishing links, 31% involved downloading malicious attachments, and only 1% resulted in phishing reports being submitted. This disparity shows that while risky behaviours are common, actual incident reporting remains extremely low. Bridging this gap is critical for reducing the impact of phishing attacks and improving organisational response times.
+
+### Reported Phishing vs Employee Count by Department
+The treemap highlights that Finance and Marketing departments have the highest number of phishing reports in proportion to their employee counts, while IT, Sales, and HR have notably fewer reports. This suggests possible underreporting in technical and administrative areas, which may indicate either overconfidence in identifying threats or gaps in awareness about reporting procedures.
+
+### Reported Phishing vs Compromised Accounts by Department
+The line chart compares the number of phishing reports against the number of compromised accounts. IT stands out with around 20 compromised accounts but relatively few phishing reports, signalling a dangerous gap in incident awareness or willingness to report. Finance shows a higher report rate relative to compromised accounts, suggesting better vigilance, while HR and Sales show both low reporting and moderate account compromise rates.
+
+
 ### **Individual User Dashboard**
-- <u>Training completion vs phishing reporting</u>: Operations completed **12** modules and filed **15** reports; Marketing completed **5** modules and made **8** reports. Training appears correlated with reporting in some areas, but not all.
-- <u>Departmental risk scores</u>: Finance ≈ **1,050**, Operations ≈ **1,000**, Marketing ≈ **850**. Higher scores reflect more risky behaviours and lower reporting.
-- <u>Link click distribution</u>: Marketing **27%** of clicks, Finance **23%**, Sales **20%**, HR **18%**, IT **7%**, Operations **5%**. Most clicks are concentrated in three departments.
-- <u>Risk score trends by employee tenure</u>: Longer-serving Finance staff showed higher risk scores than new hires, suggesting possible complacency.
+<img width="1168" height="610" alt="image" src="https://github.com/user-attachments/assets/6d6612bb-da21-4f70-b756-dd0e04f8eb80" />
+
+This dashboard turns simulated phishing data into clear insights for security teams. Each visual answers a specific question about training, behaviour, and risk so action is obvious.
+
+### 1. Training Completed vs Phishing Reports
+This clustered bar chart compares how many employees in each department completed phishing awareness training and how many reported suspicious messages.  
+Operations shows 12 completions and 14 reports, reflecting strong vigilance after training.  
+IT records 9 completions yet 17 reports, indicating a strong culture of awareness even with fewer completed modules.  
+Finance and HR show moderate completions with lower reporting, suggesting follow through needs improvement.  
+Marketing completes 5 modules and files 8 reports, showing engagement but leaving room to lift both metrics.  
+Overall, training supports reporting, but department culture and processes also drive results.
+
+### 2. Employee Tenure vs Risk Score
+This line chart plots average tenure alongside total phishing risk by department.  
+Finance and Operations carry the highest risk, close to one thousand points, despite longer average tenure.  
+IT records the lowest risk at about six hundred with shorter tenure, pointing to strong practices and reinforcement.  
+Sales, HR, and Marketing sit in the middle.  
+The pattern shows experience alone does not lower risk and regular refreshers are essential.
+
+### 3. Link Click Distribution
+This pie chart shows the share of clicked phishing links by department.  
+Marketing accounts for twenty seven percent of all clicks, Finance twenty three percent, and Sales twenty percent.  
+HR contributes eighteen percent, while IT and Operations are lowest at seven and five percent.  
+Clicks are concentrated in three teams, which should be first in line for targeted coaching and realistic simulations.
+
+### 4. Departmental Risk Scores
+This horizontal bar chart ranks total risk by department.  
+Finance is highest at roughly one thousand fifty, Operations next at about one thousand, followed by Marketing near eight hundred fifty.  
+HR and Sales sit in the middle band.  
+IT is lowest, confirming the trend from other visuals.  
+This ranking provides a clear order for prioritising awareness campaigns and policy enforcement.
+
 ### **HR Manager Dashboard**
-- <u>Link clicks vs training completion by department</u>: Marketing recorded **18** clicks despite **16** completions; IT recorded **14** clicks with **7** completions; Finance **8** clicks with **9** completions. Training impact varies by department.
-- <u>Phishing reports by department</u>: HR reported **16** incidents, Marketing **15**, IT **13**, Finance **9**. Reporting culture differs across teams.
-- <u>Geographic mapping of link clicks</u>: Confirms Melbourne and Geelong as hotspots.
-- <u>Clicks by department and role</u>: Coordinators **16** clicks, Recruiters **15**, Specialists **11**, Managers **8**, Assistants **6**. Certain roles remain more vulnerable.
+<img width="1011" height="633" alt="image" src="https://github.com/user-attachments/assets/b335c095-8896-4b70-9474-ec494eaf7231" />
+
+### Link Clicks vs Training Completion by Department
+The Marketing department recorded 18 phishing link clicks despite completing 16 training modules, showing a near one-to-one ratio between completions and risky interactions. IT registered 14 clicks but only 7 completions, suggesting a significant training gap. Finance recorded 8 clicks against 9 completions, showing a slightly better balance. This variation indicates that training impact differs across departments, and completion alone does not guarantee lower click rates.
+
+### Phishing Reports by Department
+HR emerged as the top reporter with 16 phishing incidents, followed closely by Marketing with 15, IT with 13, and Finance with 9. These figures highlight that while HR had a high reporting rate, other departments showed varying degrees of engagement in incident reporting, potentially reflecting differences in awareness or organisational culture around security.
+
+### Geographic Mapping of Link Clicks
+The geographic visualisation confirmed Melbourne and Geelong as the main hotspots for phishing link clicks. The clustering of activity in these areas suggests that employee concentration and possibly regional targeting may be influencing phishing success rates.
+
+### Clicks by Department and Role
+When clicks are broken down by role, Coordinators accounted for 16 clicks, Recruiters for 15, Specialists for 11, Managers for 8, and Assistants for 6. These insights reveal that certain roles—particularly those with frequent communication responsibilities—remain more vulnerable to phishing attempts. This data can guide role-specific awareness training to address these higher-risk groups.
+
 ---
 ## Key Outcomes
 - **High-risk departments**: Finance, Marketing, and Sales account for roughly **70%** of all phishing link clicks.
